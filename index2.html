@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet"  href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="top">
+        <div>
+        <div class="logo"><img class="logo1" src="Gallery/us.jpg"/></div>
+        <div class="titles"><p class="title"><i>Universal Styles Photography</i></p></div>
+        </div>
+     <ul class="header">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index1.html">Courses</a></li>
+                <li><a href="index2.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="container" id="form">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="lname">Email address</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email....">
+          <br/>
+          <br/>
+          <label for="number">Contact no:</label>
+          <input type="number" id="number" name="number" placeholder="mobile number..">
+          <br/>
+          <br/>
+           <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Australia</option>
+
+          </select>
+          <label for="courses">Courses</label>
+          <select id="courses" name="courses">
+            <option value="Select your course">Select your course</option>
+            <option value="Foundation Course/Diploma">Foundation Course/Diploma</option>
+            <option value="Basic Course">Basic Course</option>
+            <option value="Advanced Course">Advanced Course</option>
+            <option value="Wildlife Photography">Wildlife Photography</option>
+            <option value="Fashion Photography">Fashion Photography</option>
+
+
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit"> <br/> <br/><input class="reset" type="reset" value="Reset">
+         
+          
+          
+      
+        </form>
+      </div>
+      <div class="row">
+        <div class="footer">
+          <p>Universal Styles Photography.com.All rights reserved</p>
+        </div>
+       </div>
+</body>
+</html>
